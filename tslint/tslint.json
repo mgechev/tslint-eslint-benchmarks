@@ -76,15 +76,8 @@
       "consistent-as-needed"
     ],
     "object-literal-shorthand": true,
-    "one-variable-per-declaration": [
-      true,
-      "ignore-for-loop"
-    ],
-    "only-arrow-functions": [
-      true,
-      "allow-declarations",
-      "allow-named-functions"
-    ],
+    "one-variable-per-declaration": true,
+    "only-arrow-functions": true,
     "prefer-const": true,
     "prefer-for-of": true,
     "quotemark": [
@@ -96,33 +89,10 @@
       true,
       {
         "anonymous":"never",
-        "asyncArrow":"always",
-        "constructor":"never",
-        "method":"never",
         "named":"never"
       }
     ],
-    "triple-equals": [
-      true,
-      "allow-null-check"
-    ],
-    "typedef-whitespace": [
-      true,
-      {
-        "call-signature":"nospace",
-        "index-signature":"nospace",
-        "parameter":"nospace",
-        "property-declaration":"nospace",
-        "variable-declaration":"nospace"
-      },
-      {
-        "call-signature":"onespace",
-        "index-signature":"onespace",
-        "parameter":"onespace",
-        "property-declaration":"onespace",
-        "variable-declaration":"onespace"
-      }
-    ],
+    "triple-equals": true,
     "typeof-compare": false,
     "unified-signatures": true,
     "use-isnan": true,
