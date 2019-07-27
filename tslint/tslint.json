@@ -15,10 +15,10 @@
     "cyclomatic-complexity": false,
     "eofline": true,
     "forin": true,
-    "indent": [
-      true,
-      "spaces"
-    ],
+//    "indent": [
+//      true,
+//      "spaces"
+//    ],
     "interface-name": [
       true,
       "always-prefix"

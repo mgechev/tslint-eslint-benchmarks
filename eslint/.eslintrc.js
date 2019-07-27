@@ -19,7 +19,7 @@ module.exports = {
     complexity: 0,
     'eol-last': 1,
     'guard-for-in': 1,
-    '@typescript-eslint/indent': [1, 2],
+//    '@typescript-eslint/indent': [1, 2],
     '@typescript-eslint/interface-name-prefix': [1, 'always'],
     '@typescript-eslint/prefer-interface': 1,
     'no-unused-labels': 1,
