@@ -1,5 +1,8 @@
 {
   "compileOnSave": false,
+  "include": [
+    "src"
+  ],
   "compilerOptions": {
     "importHelpers": true,
     "outDir": "./dist/out-tsc",

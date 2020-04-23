@@ -2,9 +2,8 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'prefer-arrow'],
   parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
-    project: './tsconfig.json'
+    tsconfigRootDir: __dirname,
+    project: ['./tsconfig.json'],
   },
   rules: {
     "@typescript-eslint/no-for-in-array": 1,
