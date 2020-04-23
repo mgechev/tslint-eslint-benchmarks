@@ -9,7 +9,7 @@ module.exports = {
   rules: {
     "@typescript-eslint/no-for-in-array": 1,
     '@typescript-eslint/adjacent-overload-signatures': 1,
-    '@typescript-eslint/array-type': [1, 'array-simple'],
+    '@typescript-eslint/array-type': [1, { default: 'array-simple' }],
     'arrow-parens': 1,
     'arrow-body-style': 1,
     '@typescript-eslint/prefer-function-type': 1,
